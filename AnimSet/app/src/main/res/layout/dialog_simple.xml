@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1211c1c"
+    android:orientation="vertical"
+
+    tools:context=".DialogSimple">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#d94839"
+        android:textColor="#FFFFFF"
+        android:padding="30dp"
+        android:gravity="center"
+        android:text="Nifty Modal Dialog Effects" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/fadein"
+            style="@style/my_btn"
+            android:text="Fade In"
+            android:onClick="dialogShow"
+             />
+        <Button
+            android:id="@+id/slideright"
+            style="@style/my_btn"
+            android:text="Slide Right"
+            android:onClick="dialogShow"
+             />
+        <Button
+            android:id="@+id/slideleft"
+            style="@style/my_btn"
+            android:text="Slide Left"
+            android:onClick="dialogShow"
+             />
+        <Button
+            android:id="@+id/slidetop"
+            style="@style/my_btn"
+            android:text="Slide Top"
+            android:onClick="dialogShow"
+             />
+        <Button
+            android:id="@+id/slideBottom"
+            style="@style/my_btn"
+            android:text="Slide Bottom"
+            android:onClick="dialogShow"
+             />
+        <Button
+            android:id="@+id/newspager"
+            style="@style/my_btn"
+            android:text="News Paper"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/fall"
+            style="@style/my_btn"
+            android:text="Fall"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/sidefall"
+            style="@style/my_btn"
+            android:text="Side Fall"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/shake"
+            style="@style/my_btn"
+            android:text="Shake"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/fliph"
+            style="@style/my_btn"
+            android:text="3D Flip (horizontal)"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/flipv"
+            style="@style/my_btn"
+            android:text="3D Flip (vertical)"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/rotatebottom"
+            style="@style/my_btn"
+            android:text="3D Rotate Bottom"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/rotateleft"
+            style="@style/my_btn"
+            android:text="3D Rotate Left"
+            android:onClick="dialogShow"
+            />
+        <Button
+            android:id="@+id/slit"
+            style="@style/my_btn"
+            android:text="3D Slit"
+            android:onClick="dialogShow"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

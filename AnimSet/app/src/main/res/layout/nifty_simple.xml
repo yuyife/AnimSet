@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1211c1c"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:background="#d94839"
+        android:textColor="#FFFFFF"
+        android:padding="30dp"
+        android:gravity="center"
+        android:text="Nifty Modal Notification Effects" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/scale"
+                style="@style/my_btn"
+                android:text="SCALE"
+                android:onClick="showNotify"
+                />
+            <Button
+                android:id="@+id/thumbSlider"
+                style="@style/my_btn"
+                android:text="THUMB SLIDER"
+                android:onClick="showNotify"
+                />
+            <Button
+                android:id="@+id/jelly"
+                style="@style/my_btn"
+                android:text="JELLY"
+                android:onClick="showNotify"
+                />
+            <Button
+                android:id="@+id/slidein"
+                style="@style/my_btn"
+                android:text="SLIDE IN"
+                android:onClick="showNotify"
+                />
+            <Button
+                android:id="@+id/flip"
+                style="@style/my_btn"
+                android:text="FLIP"
+                android:onClick="showNotify"
+                />
+            <Button
+                android:id="@+id/slideOnTop"
+                style="@style/my_btn"
+                android:text="SLIDE ON TOP"
+                android:onClick="showNotify"
+                />
+            <Button
+                android:id="@+id/standard"
+                style="@style/my_btn"
+                android:text="STANDARD"
+                android:onClick="showNotify"
+                />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:id="@+id/mLyout"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="true"
+        >
+
+    </RelativeLayout>
+</RelativeLayout>
