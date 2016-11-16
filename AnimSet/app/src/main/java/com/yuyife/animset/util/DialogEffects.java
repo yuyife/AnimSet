@@ -35,14 +35,14 @@ public enum DialogEffects {
     Slit(Slit.class),
     Shake(Shake.class),
     Sidefill(SideFall.class);
-    private Class<? extends BaseEffects> effectsClazz;
+    private Class<? extends BaseDialogEffects> effectsClazz;
 
-    private DialogEffects(Class<? extends BaseEffects> mclass) {
+    private DialogEffects(Class<? extends BaseDialogEffects> mclass) {
         effectsClazz = mclass;
     }
 
-    public BaseEffects getAnimator() {
-        BaseEffects bEffects=null;
+    public BaseDialogEffects getAnimator() {
+        BaseDialogEffects bEffects=null;
 	try {
 		bEffects = effectsClazz.newInstance();
 	} catch (ClassCastException e) {

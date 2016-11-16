@@ -19,7 +19,7 @@ import android.view.View;
 
 import com.nineoldandroids.animation.ObjectAnimator;
 
-public class Standard extends BaseEffect{
+public class Standard extends BaseNiftyEffects {
     @Override
     protected void setInAnimation(View view) {
         getAnimatorSet().playTogether(

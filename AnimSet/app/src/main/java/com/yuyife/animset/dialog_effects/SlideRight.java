@@ -20,7 +20,7 @@ import com.nineoldandroids.animation.ObjectAnimator;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-public class SlideRight extends BaseEffects{
+public class SlideRight extends BaseDialogEffects {
 
     @Override
     protected void setupAnimation(View view) {

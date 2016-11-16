@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_1540c2e1792ffe4855d059c8c077c6184f5a762b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_79893dadc60d2ca05ed5127d1114f3c9a2debe76\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_c03d85be44b2a50dd3e1112f47c848b4f52ff92c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_bfafc612750f2f2edfaf0e0130263d0e13e9aa4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_05bb3017f38211f666dacbd3aa54357475815c6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_d29dc6abac3db7bbc9a1a521450d555ec12265ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_50c4eb9f9dffa3636951baeca27cd94a81b70c84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\libs\library-nineoldandroids-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\2\library-nineoldandroids-2.4.0_f029332945555a86c466b8334231b28b3ce1d235\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_89f7e4443454ab2aec1c4b8b29b10e6b0ec9ae82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_8366a987725157faf8859dc9fb6c1123e9d1e4c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_be55f6734aecb267a8ac23064fbbdc22bb900e4d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f95589055560b12ef5db0874ee67825281144dff">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9ea29d07d26e4eb8570adf47e805026eca432959\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_858b1be2ed78407e9c941caf314381b805d4ec84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_6acb8969ca58b84008c7bfd9016fb429f6f706de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7d347e11bfad8e7a6ec65e65a527fc2c7641a79">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5b8e2fdfc8a255ec4112936519ec35ecf88cd61e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_20f7dd50e053b2618e9344d9155f7bac18a631a7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_92bff19815cdc5ddeaeaeeb5f915ba77f63d0829\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\dog_food\AnimSet\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\dog_food\AnimSet\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_ea2d96b888220ef3776b29ac5092c296083e80ec\classes.dex" />
+    </item>
+
+</items>

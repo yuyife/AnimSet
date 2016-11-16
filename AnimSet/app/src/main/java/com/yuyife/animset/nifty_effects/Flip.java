@@ -20,7 +20,7 @@ import android.view.View;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.view.ViewHelper;
 
-public class Flip extends BaseEffect {
+public class Flip extends BaseNiftyEffects {
     long s = mDuration,
          e =mDuration;
     @Override

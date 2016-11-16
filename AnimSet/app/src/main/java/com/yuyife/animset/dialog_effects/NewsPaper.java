@@ -20,7 +20,7 @@ import com.nineoldandroids.animation.ObjectAnimator;
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-public class NewsPaper extends BaseEffects{
+public class NewsPaper extends BaseDialogEffects {
 
     @Override
     protected void setupAnimation(View view) {

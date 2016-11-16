@@ -16,10 +16,9 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.yuyife.animset.dialog_effects.BaseDialogEffects;
 import com.yuyife.animset.util.DialogColorUtils;
-import com.yuyife.animset.util.DialogEffects;
 import com.yuyife.animset.R;
-import com.yuyife.animset.dialog_effects.BaseEffects;
 
 
 /*
@@ -53,7 +52,7 @@ public class NiftyDialogBuilder extends Dialog implements DialogInterface {
     private static Context tmpContext;
 
 
-    private DialogEffects type = null;
+    private com.yuyife.animset.util.DialogEffects type = null;
 
     private LinearLayout mLinearLayoutView;
 
@@ -147,7 +146,7 @@ public class NiftyDialogBuilder extends Dialog implements DialogInterface {
 
                 mLinearLayoutView.setVisibility(View.VISIBLE);
                 if (type == null) {
-                    type = DialogEffects.Slidetop;
+                    type = com.yuyife.animset.util.DialogEffects.Slidetop;
                 }
                 start(type);
 
@@ -244,7 +243,7 @@ public class NiftyDialogBuilder extends Dialog implements DialogInterface {
         return this;
     }
 
-    public NiftyDialogBuilder withEffect(DialogEffects type) {
+    public NiftyDialogBuilder withEffect(com.yuyife.animset.util.DialogEffects type) {
         this.type = type;
         return this;
     }
@@ -322,8 +321,8 @@ public class NiftyDialogBuilder extends Dialog implements DialogInterface {
         super.show();
     }
 
-    private void start(DialogEffects type) {
-        BaseEffects animator = type.getAnimator();
+    private void start(com.yuyife.animset.util.DialogEffects type) {
+        BaseDialogEffects animator = type.getAnimator();
         if (mDuration != -1) {
             animator.setDuration(Math.abs(mDuration));
         }

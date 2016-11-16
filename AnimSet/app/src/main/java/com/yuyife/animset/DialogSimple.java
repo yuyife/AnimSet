@@ -79,7 +79,7 @@ public class DialogSimple extends Activity {
                 .withIcon(getResources().getDrawable(R.drawable.icon))
                 .isCancelableOnTouchOutside(true)                           //def    | isCancelable(true)
                 .withDuration(700)                                          //def
-                .withEffect(effect)                                         //def DialogEffects.Slidetop
+                .withEffect(effect)                                         //def BaseDialogEffects.Slidetop
                 .withButton1Text("OK")                                      //def gone
                 .withButton2Text("Cancel")                                  //def gone
                 .setCustomView(R.layout.dialog_custom_view, v.getContext())         //.setCustomView(View or ResId,context)

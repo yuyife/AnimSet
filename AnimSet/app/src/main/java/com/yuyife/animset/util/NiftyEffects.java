@@ -1,7 +1,7 @@
 package com.yuyife.animset.util;
 
 
-import com.yuyife.animset.nifty_effects.BaseEffect;
+import com.yuyife.animset.nifty_effects.BaseNiftyEffects;
 import com.yuyife.animset.nifty_effects.Flip;
 import com.yuyife.animset.nifty_effects.Jelly;
 import com.yuyife.animset.nifty_effects.Scale;
@@ -35,14 +35,14 @@ public enum NiftyEffects {
     scale(Scale.class);
 
 
-    private Class<? extends BaseEffect> effectsClazz;
+    private Class<? extends BaseNiftyEffects> effectsClazz;
 
-    private NiftyEffects(Class<? extends BaseEffect> mclass) {
+    private NiftyEffects(Class<? extends BaseNiftyEffects> mclass) {
         effectsClazz = mclass;
     }
 
-    public BaseEffect getAnimator() {
-        BaseEffect bEffects=null;
+    public BaseNiftyEffects getAnimator() {
+        BaseNiftyEffects bEffects=null;
         try {
             bEffects = effectsClazz.newInstance();
         } catch (ClassCastException e) {

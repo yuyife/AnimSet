@@ -19,7 +19,7 @@ import android.view.View;
 
 import com.nineoldandroids.animation.ObjectAnimator;
 
-public class SlideIn extends BaseEffect {
+public class SlideIn extends BaseNiftyEffects {
 
     @Override
     protected void setInAnimation(View view) {

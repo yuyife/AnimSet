@@ -19,7 +19,7 @@ import android.view.View;
 
 import com.nineoldandroids.animation.ObjectAnimator;
 
-public class Scale extends BaseEffect {
+public class Scale extends BaseNiftyEffects {
 
     @Override
     protected void setInAnimation(View view) {

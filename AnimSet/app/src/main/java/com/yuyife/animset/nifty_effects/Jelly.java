@@ -19,7 +19,7 @@ import android.view.View;
 
 import com.nineoldandroids.animation.ObjectAnimator;
 
-public class Jelly extends BaseEffect {
+public class Jelly extends BaseNiftyEffects {
 
     @Override
     protected void setInAnimation(View view) {

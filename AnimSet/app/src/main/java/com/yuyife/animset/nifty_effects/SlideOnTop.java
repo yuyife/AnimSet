@@ -19,7 +19,7 @@ import android.view.View;
 
 import com.nineoldandroids.animation.ObjectAnimator;
 
-public class SlideOnTop extends BaseEffect{
+public class SlideOnTop extends BaseNiftyEffects {
 
     @Override
     protected void setInAnimation(View view) {

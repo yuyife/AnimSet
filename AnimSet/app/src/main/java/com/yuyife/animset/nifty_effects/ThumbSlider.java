@@ -20,7 +20,7 @@ import android.view.View;
 import com.nineoldandroids.animation.ObjectAnimator;
 import com.nineoldandroids.view.ViewHelper;
 
-public class ThumbSlider extends BaseEffect{
+public class ThumbSlider extends BaseNiftyEffects {
 
     long s = (mDuration-200)/2,
          m = 200,
